@@ -1,0 +1,192 @@
+/* :root { */
+  /* гланый заголововк цвет текста */
+  /* --main-title-color: #FFFFFF; */
+  /* главний цвет текста */
+  /* --primery-text-colot: #212121; */
+  /* вторичний цвет текста */
+  /* --tiele-text-color: #757575; */
+  /* цвет акцент навидение на ссылку */
+  /* --accent-color: #2196F3; */
+  /* цвет основной кнопки */
+  /* --primery-button-colot: #FFFFFF; */
+/* } */
+
+
+/* html. студия */
+
+/* хедер */
+
+.header {
+  background-color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5; 
+   }
+
+body {
+    font-family: 'Raleway' , sans-serif;
+    font-family: 'Roboto' , sans-serif;
+    background-color: #E5E5E5;
+               color: #212121;
+}
+
+/* site-nav цвет навигации */
+
+.site-nav .link {
+      color: #212121 ;
+}
+
+.contact-link {
+  color: #757575 ;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+     color: #2196F3
+}
+
+.site-nav .link.current {
+  color: #2196F3;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+     color: #2196F3
+}
+
+/* < !-- герой-шапка сайта --> */
+.hero {
+  background: #2F303A;
+}
+
+.hero-title {
+  color:#FFFFFF ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.hero-button {
+color: #FFFFFF;
+background-color: #2196F3;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+}
+.pointer{
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+ .pointer:hover,
+ .pointer:focus {
+  color: #2F303A;
+  background-color: #FFFFFF;
+}
+
+
+
+ /* преймущество */
+
+.advantage-list .title {
+  color: #757575 ;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+}
+/* чем мы занимаемся */
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+}
+/* .work-images */
+
+/* наша команда */
+.team {
+  background-color: #F5F4FA ;
+}
+
+.team-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+   line-height: 1.8;
+}
+
+.team .title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+
+.team-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+/* футер */
+
+.footer {
+  background-color: #2F303A;
+}
+
+.logo-link {
+  color:#2196F3;
+  font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  
+}
+.address-link {
+color: #FFFFFF;
+font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contact-link {
+  color: #757575;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+
+/* html. портфолио */
+
+/* услуги */
+
+.services .pointer:hover,
+.services .pointer:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
+.services .pointer{
+  cursor: pointer;
+  color: #212121;
+  background-color:#F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.service .title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.services .text {
+  color:#757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
